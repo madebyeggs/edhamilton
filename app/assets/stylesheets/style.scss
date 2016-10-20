@@ -1,15 +1,16 @@
 @font-face {
-  font-family: 'Eddy';
-  src:font-url('Gotham-ExtraLight.eot');
-  src:font-url('Gotham-ExtraLight.eot?#iefix') format('embedded-opentype'),
-    font-url('Gotham-ExtraLight.svg#icomoon') format('svg'),
-    font-url('Gotham-ExtraLight.woff') format('woff'),
-    font-url('Gotham-ExtraLight.ttf') format('truetype');
+  font-family: 'GThin';
+  src:font-url('Gotham-Thin.eot');
+  src:font-url('Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+    font-url('Gotham-Thin.svg#icomoon') format('svg'),
+    font-url('Gotham-Thin.woff') format('woff'),
+    font-url('Gotham-Thin.ttf') format('truetype'),
+	font-url('Gotham-Thin.svg#Gotham-Thin') format('svg');
   font-weight: 100;
   font-style: normal;
 }
 
-html, body, p, a {font-family:'Eddy';letter-spacing:-2px;}
+html, body, p, a {font-family:'GThin';letter-spacing:-2px;}
 
 .parent {position:relative;height:100vh;}
 .child {
