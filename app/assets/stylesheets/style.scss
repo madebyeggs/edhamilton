@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Eddy';
+  src:font-url('Gotham-ExtraLight.eot');
+  src:font-url('Gotham-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    font-url('Gotham-ExtraLight.svg#icomoon') format('svg'),
+    font-url('Gotham-ExtraLight.woff') format('woff'),
+    font-url('Gotham-ExtraLight.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+html, body, p, a {font-family:'Eddy';letter-spacing:-2px;}
+
+.parent {position:relative;height:100vh;}
+.child {
+	font-size:60px;
+	position: absolute; 
+	top:calc(45% - 60px);
+	left: 0;
+	text-align: center; 
+	width: 100%;
+}
